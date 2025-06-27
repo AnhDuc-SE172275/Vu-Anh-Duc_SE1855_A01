@@ -1,0 +1,30 @@
+D:\support\prn212\quangLam\Lucy_SalesData\BusinessObjects\bin\Debug\net8.0\BusinessObjects.deps.json
+D:\support\prn212\quangLam\Lucy_SalesData\BusinessObjects\bin\Debug\net8.0\BusinessObjects.runtimeconfig.json
+D:\support\prn212\quangLam\Lucy_SalesData\BusinessObjects\bin\Debug\net8.0\BusinessObjects.dll
+D:\support\prn212\quangLam\Lucy_SalesData\BusinessObjects\bin\Debug\net8.0\BusinessObjects.pdb
+D:\support\prn212\quangLam\Lucy_SalesData\BusinessObjects\obj\Debug\net8.0\BusinessObjects.csproj.AssemblyReference.cache
+D:\support\prn212\quangLam\Lucy_SalesData\BusinessObjects\obj\Debug\net8.0\BusinessObjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\support\prn212\quangLam\Lucy_SalesData\BusinessObjects\obj\Debug\net8.0\BusinessObjects.AssemblyInfoInputs.cache
+D:\support\prn212\quangLam\Lucy_SalesData\BusinessObjects\obj\Debug\net8.0\BusinessObjects.AssemblyInfo.cs
+D:\support\prn212\quangLam\Lucy_SalesData\BusinessObjects\obj\Debug\net8.0\BusinessObjects.csproj.CoreCompileInputs.cache
+D:\support\prn212\quangLam\Lucy_SalesData\BusinessObjects\obj\Debug\net8.0\BusinessObjects.dll
+D:\support\prn212\quangLam\Lucy_SalesData\BusinessObjects\obj\Debug\net8.0\refint\BusinessObjects.dll
+D:\support\prn212\quangLam\Lucy_SalesData\BusinessObjects\obj\Debug\net8.0\BusinessObjects.pdb
+D:\support\prn212\quangLam\Lucy_SalesData\BusinessObjects\obj\Debug\net8.0\BusinessObjects.genruntimeconfig.cache
+D:\support\prn212\quangLam\Lucy_SalesData\BusinessObjects\obj\Debug\net8.0\ref\BusinessObjects.dll
+D:\support\prn212\quangLam\Lucy_SalesData\BusinessObjects\bin\Debug\net8.0\appsettings.json
+D:\anh đức\PRN212\ASS\ASS\Vũ Anh Đức_SE1855_A01\BusinessObjects\bin\Debug\net8.0\appsettings.json
+D:\anh đức\PRN212\ASS\ASS\Vũ Anh Đức_SE1855_A01\BusinessObjects\bin\Debug\net8.0\BusinessObjects.deps.json
+D:\anh đức\PRN212\ASS\ASS\Vũ Anh Đức_SE1855_A01\BusinessObjects\bin\Debug\net8.0\BusinessObjects.runtimeconfig.json
+D:\anh đức\PRN212\ASS\ASS\Vũ Anh Đức_SE1855_A01\BusinessObjects\bin\Debug\net8.0\BusinessObjects.dll
+D:\anh đức\PRN212\ASS\ASS\Vũ Anh Đức_SE1855_A01\BusinessObjects\bin\Debug\net8.0\BusinessObjects.pdb
+D:\anh đức\PRN212\ASS\ASS\Vũ Anh Đức_SE1855_A01\BusinessObjects\obj\Debug\net8.0\BusinessObjects.csproj.AssemblyReference.cache
+D:\anh đức\PRN212\ASS\ASS\Vũ Anh Đức_SE1855_A01\BusinessObjects\obj\Debug\net8.0\BusinessObjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\anh đức\PRN212\ASS\ASS\Vũ Anh Đức_SE1855_A01\BusinessObjects\obj\Debug\net8.0\BusinessObjects.AssemblyInfoInputs.cache
+D:\anh đức\PRN212\ASS\ASS\Vũ Anh Đức_SE1855_A01\BusinessObjects\obj\Debug\net8.0\BusinessObjects.AssemblyInfo.cs
+D:\anh đức\PRN212\ASS\ASS\Vũ Anh Đức_SE1855_A01\BusinessObjects\obj\Debug\net8.0\BusinessObjects.csproj.CoreCompileInputs.cache
+D:\anh đức\PRN212\ASS\ASS\Vũ Anh Đức_SE1855_A01\BusinessObjects\obj\Debug\net8.0\BusinessObjects.dll
+D:\anh đức\PRN212\ASS\ASS\Vũ Anh Đức_SE1855_A01\BusinessObjects\obj\Debug\net8.0\refint\BusinessObjects.dll
+D:\anh đức\PRN212\ASS\ASS\Vũ Anh Đức_SE1855_A01\BusinessObjects\obj\Debug\net8.0\BusinessObjects.pdb
+D:\anh đức\PRN212\ASS\ASS\Vũ Anh Đức_SE1855_A01\BusinessObjects\obj\Debug\net8.0\BusinessObjects.genruntimeconfig.cache
+D:\anh đức\PRN212\ASS\ASS\Vũ Anh Đức_SE1855_A01\BusinessObjects\obj\Debug\net8.0\ref\BusinessObjects.dll

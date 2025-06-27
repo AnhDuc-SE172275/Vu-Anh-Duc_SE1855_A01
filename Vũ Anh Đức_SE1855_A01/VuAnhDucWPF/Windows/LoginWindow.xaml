@@ -1,0 +1,171 @@
+﻿<Window x:Class="Lucy_SalesData.Windows.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Vũ Anh Đức-SE172275" 
+        Height="480" Width="600"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Background="#f0f0f0">
+
+    <Border Background="White" 
+            CornerRadius="10" 
+            Margin="20">
+        <Border.Effect>
+            <DropShadowEffect Color="Gray" 
+                            Direction="315" 
+                            ShadowDepth="5" 
+                            Opacity="0.3" 
+                            BlurRadius="10"/>
+        </Border.Effect>
+
+        <Grid Margin="40">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="15"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="15"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="20"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="20"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- Header -->
+            <StackPanel Grid.Row="0" HorizontalAlignment="Center">
+                <TextBlock Text="ĐĂNG NHẬP HỆ THỐNG" 
+                          FontSize="24" 
+                          FontWeight="Bold" 
+                          Foreground="#2c3e50"
+                          HorizontalAlignment="Center"/>
+                <TextBlock Text="Lucy Sales Data Management" 
+                          FontSize="14" 
+                          Foreground="#7f8c8d"
+                          HorizontalAlignment="Center"
+                          Margin="0,5,0,0"/>
+            </StackPanel>
+
+            <!-- Username -->
+            <StackPanel Grid.Row="2">
+                <TextBlock Text="Tên đăng nhập:" 
+                          FontWeight="SemiBold" 
+                          Margin="0,0,0,5"
+                          Foreground="#34495e"/>
+                <TextBox x:Name="txtUsername" 
+                        Height="35"
+                        Padding="10,0"
+                        FontSize="14"
+                        BorderBrush="#bdc3c7"
+                        BorderThickness="1"
+                        VerticalContentAlignment="Center"/>
+            </StackPanel>
+
+            <!-- Password -->
+            <StackPanel Grid.Row="4">
+                <TextBlock Text="Mật khẩu:" 
+                          FontWeight="SemiBold" 
+                          Margin="0,0,0,5"
+                          Foreground="#34495e"/>
+                <PasswordBox x:Name="txtPassword" 
+                            Height="35"
+                            Padding="10,0"
+                            FontSize="14"
+                            BorderBrush="#bdc3c7"
+                            BorderThickness="1"
+                            VerticalContentAlignment="Center"/>
+            </StackPanel>
+
+            <!-- Remember Me -->
+            <CheckBox x:Name="chkRememberMe" 
+                     Grid.Row="6"
+                     Content="Ghi nhớ đăng nhập"
+                     Foreground="#34495e"/>
+
+            <!-- Buttons -->
+            <StackPanel Grid.Row="8" 
+                       Orientation="Horizontal" 
+                       HorizontalAlignment="Center">
+                <Button x:Name="btnLogin" 
+                       Content="Đăng nhập"
+                       Width="120" 
+                       Height="40"
+                       Background="#3498db"
+                       Foreground="White"
+                       BorderThickness="0"
+                       FontSize="14"
+                       FontWeight="SemiBold"
+                       Cursor="Hand"
+                       Click="BtnLogin_Click"
+                       Margin="0,0,10,0">
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="Button">
+                                        <Border Background="{TemplateBinding Background}"
+                                               CornerRadius="5"
+                                               BorderThickness="{TemplateBinding BorderThickness}"
+                                               BorderBrush="{TemplateBinding BorderBrush}">
+                                            <ContentPresenter HorizontalAlignment="Center"
+                                                            VerticalAlignment="Center"/>
+                                        </Border>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Setter Property="Background" Value="#2980b9"/>
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Button.Style>
+                </Button>
+
+                <Button x:Name="btnCancel" 
+                       Content="Hủy"
+                       Width="120" 
+                       Height="40"
+                       Background="#95a5a6"
+                       Foreground="White"
+                       BorderThickness="0"
+                       FontSize="14"
+                       FontWeight="SemiBold"
+                       Cursor="Hand"
+                       Click="BtnCancel_Click">
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="Button">
+                                        <Border Background="{TemplateBinding Background}"
+                                               CornerRadius="5"
+                                               BorderThickness="{TemplateBinding BorderThickness}"
+                                               BorderBrush="{TemplateBinding BorderBrush}">
+                                            <ContentPresenter HorizontalAlignment="Center"
+                                                            VerticalAlignment="Center"/>
+                                        </Border>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Setter Property="Background" Value="#7f8c8d"/>
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Button.Style>
+                </Button>
+            </StackPanel>
+
+            <!-- Error Message -->
+            <TextBlock x:Name="lblError" 
+                      Grid.Row="10"
+                      Foreground="Red"
+                      HorizontalAlignment="Center"
+                      TextWrapping="Wrap"
+                      Visibility="Collapsed"/>
+        </Grid>
+    </Border>
+</Window>
